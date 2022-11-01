@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Man Utd matches</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- axios -->
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Manchester United</h1>
+      <form class="input" method="post">
+        <input
+          type="text"
+          class="task"
+          name="match"
+          id="task"
+          placeholder="search match"
+        />
+        <button class="btn">search</button>
+      </form>
+    </div>
+    <div class="det">
+      <ul id="matches"></ul>
+    </div>
+  </body>
+</html>
